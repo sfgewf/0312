@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> car 매개변수 </title>
+</head>
+<body>
+    <script>
+        let parkedCars = [];  // 빈 배열로 초기화
+        const parkCar = (car) => {
+            parkedCars.push(car); 
+
+            // .push() - 배열구조에서 맨끝에 하나이상의 요소추가
+            // car 라는 매개변수는 아래 문자열의 전달된 정보 전달 역할 (순서)
+        };
+        parkCar("anseon"); // 0  
+        parkCar("ezen"); // 1 
+        // 출력 - length:2 
+        
+        console.log(parkedCars);
+    </script>
+</body>
+</html>

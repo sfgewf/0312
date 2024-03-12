@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nanum Gothic';
+}
+
+.parking-system-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parking-system-container h1.parking-system-title {
+  font-size: 24px;
+  color: #333;
+  margin: 30px 0 50px 0;
+}
+
+.parking-system-container ul.parked-cars-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.parked-cars-list li .unpark-button {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: .5s;
+}
+
+ul.parked-cars-list li .unpark-button:hover {
+  background-color: #000;
+}
+
+/* 폼 */
+
+.park-car-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.car-input-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.car-input {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* 주차버튼 */
+.park-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  /* margin-left: 10px; */
+  border: none; 
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+  transition: .5s;
+}
+
+.park-button:hover {
+  background-color: #000;
+}
+
+@media (max-width:600px) {
+  .park-car-form {
+    /* display: flex; */
+    /* align-items: center; */
+    flex-direction: column;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  form input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

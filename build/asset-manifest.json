@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/parking/static/css/main.0b622353.css",
+    "main.js": "/parking/static/js/main.ad57a3c0.js",
+    "static/js/453.dd7e4e26.chunk.js": "/parking/static/js/453.dd7e4e26.chunk.js",
+    "index.html": "/parking/index.html",
+    "main.0b622353.css.map": "/parking/static/css/main.0b622353.css.map",
+    "main.ad57a3c0.js.map": "/parking/static/js/main.ad57a3c0.js.map",
+    "453.dd7e4e26.chunk.js.map": "/parking/static/js/453.dd7e4e26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b622353.css",
+    "static/js/main.ad57a3c0.js"
+  ]
+}
